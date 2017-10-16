@@ -43,7 +43,6 @@ function triangleHasNoEqualSides(triangle) {
  * @return  1 if pythagorean, 0 if not
  */
 function checkPythagorean(x, y, z) {
-  console.log(`Checking pythagorean: ${x * x} + ${y * y} = ${x*x + y*y} == ${z * z}`);
   return (
     (x * x) + (y * y) === (z * z)
   );
