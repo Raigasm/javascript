@@ -2,7 +2,7 @@
   "name": "triangle-js",
   "version": "1.0.0",
   "description": "Triangle.c Implemented in JavaScript",
-  "main": "triangle.js",
+  "main": "main.js",
   "directories": {
     "test": "test"
   },

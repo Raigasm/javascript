@@ -11,7 +11,7 @@
 
 
 # Structure 
-The only important files are `triangle.js` (the main source file) and `test/triangle_test.js` (the tests).
+The only important files are `main.js` (the 'entry' point that enables this project to be used as a command line utility), `triangle.js` (the core source file which implements triangle.c) and `test/triangle_test.js` (the tests).
 
 I resisted the urge to use frameworks/libraries in the implementation. The code is all self-written JavaScript with a sprinkling of ES6 sugar.
  
@@ -19,7 +19,7 @@ I resisted the urge to use frameworks/libraries in the implementation. The code 
 - have node.js (v8+) installed
 - clone this repo
 - `npm install` (? maybe not required, but its almost midnight and I haven't got time to test just using node)
-- `node ./triangle.js <side1> <side2> <side3>`
+- `node ./main.js <side1> <side2> <side3>`
 
 ## How to Run Tests
 - `npm install -g mocha babel-core`
