@@ -12,6 +12,12 @@
   "author": "Rai Butera",
   "license": "MIT",
   "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
     "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
   }
 }
