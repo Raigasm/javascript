@@ -100,7 +100,7 @@ describe("Triangle Interpreter", function() {
       it("should deal with situations where overflow would occur in C", function() {
         assert.equal(triangle("1100000000", "1705032704", "1805032704"), "Scalene", "when 1100000000, 1705032704, 1805032704");
         assert.equal(triangle("2000000001", "2000000002", "2000000003"), "Scalene", "when 2000000001, 2000000002, 2000000003");
-        assert.equal(triangle("150000002", "666666671", "683333338"), "Scalene", "when 150000002, 666666671, 683333338");
+        assert.equal(triangle("150000002", "666666671", "683333338"), "Right", "when 150000002, 666666671, 683333338");
       });
     });
   });
